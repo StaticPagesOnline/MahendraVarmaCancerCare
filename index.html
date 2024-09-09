@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mahendra Varma Care Center</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        /* Base styling to match the background and foreground colors */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #003049; /* Dark Blue background from the image */
+            color: #FFD700; /* Golden text */
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        /* Styling for the title and logo */
+        .title-section {
+            border: 2px solid #FFD700;
+            border-radius: 5px;
+            padding: 8px;
+            margin: 2px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+            display: flex;
+            justify-content: center;
+            gap: 2vw;
+            align-items: center;
+            font-family: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans","Liberation Sans",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+        }
+        .title-section h1{
+            color: white;
+        }
+        .logo {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            margin-right: 10px;
+            background-color: #FFD700; /* For illustration, change with actual logo image */
+        }
+
+        h1 {
+            font-size: 36px;
+            margin: 0;
+        }
+
+        /* Styling for the button container */
+        .button-container {
+            padding: 16px;
+            margin-top: 10px;
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+        .button-container a{
+            text-decoration: none;
+        }
+
+
+        .custom-icon {
+            width: 64px;
+            height: 64px;
+      border-radius: 50%;
+    }
+
+    /* Social media button styling */
+.social-btn {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #FFD700;
+    color: #003049;
+    border: none;
+    border-radius: 50px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+    font-family: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans","Liberation Sans",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    text-align: left;
+}
+
+/* Logo image with circular background */
+.social-btn img {
+    background-color: #fff;
+    border-radius: 50%;
+    padding: 10px;
+    width: 40px;
+    height: 40px;
+}
+
+/* Text next to the logo */
+.social-btn p {
+    flex: 1;
+    margin-left: 15px;
+    margin-right: 10px;
+    font-size: 16px;
+    color: black;
+    font-weight: bold;
+}
+
+/* Right arrow icon styling */
+.rightIcon {
+      margin-left: auto;
+      font-size: 2em;
+    }
+
+/* Hover effect for the buttons */
+.social-btn:hover,.social-btn:active {
+    transform: scale(1.01);
+    background-color: #ebda7b;
+}
+
+
+/* Optional: To align the logo, text, and arrow vertically center */
+.social-btn img, .social-btn p, .rightIcon {
+    vertical-align: middle;
+}
+
+
+    </style>
+</head>
+<body>
+
+    <!-- Title section with a circular logo -->
+    <div class="title-section">
+        <img src="logo.jpg" alt="Custom Icon" class="custom-icon">
+        <h1>Mahendra Varma Care Center</h1>
+    </div>
+
+    <!-- Social media buttons -->
+    <div class="button-container">
+        <a href="https://www.instagram.com/mahendravarmacancercare/" target="_blank">
+            <button class="social-btn" aria-label="Instagram">
+                <img src="https://img.icons8.com/fluent/48/000000/instagram-new.png" alt="Instagram">
+                <p>Follow us on Instagram</p>
+                <i class="fa fa-angle-right rightIcon"></i>
+            </button>
+        </a>
+        <a href="https://www.facebook.com/MahendraVarmaCancerCare" target="_blank">
+            <button class="social-btn" aria-label="Facebook">
+                <img src="https://img.icons8.com/fluent/48/000000/facebook-new.png" alt="Facebook">
+                <p>Follow us on Facebook</p>
+                <i class="fa fa-angle-right rightIcon"></i>
+            </button>
+        </a>
+        <a href="https://www.youtube.com/@MahendraVarmaCancerCare" target="_blank">
+            <button class="social-btn" aria-label="YouTube">
+                <img src="https://img.icons8.com/fluent/48/000000/youtube-play.png" alt="YouTube">
+                <p>Subsribe to our Youtube channel</p>
+                <i class="fa fa-angle-right rightIcon"></i>
+            </button>
+        </a>
+    </div>
+
+</body>
+</html>
